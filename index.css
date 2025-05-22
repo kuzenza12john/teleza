@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.signup-form {
+    background: rgba(47, 47, 47, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.signup-form h2 {
+    margin-bottom: 10px;
+    color: #5cb85c;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-form .logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.signup-form input {
+    width: 92%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #5cb85c;
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+}
+
+.signup-form input::placeholder {
+    color: #ddd;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-form button:hover {
+    background-color: #4cae4c;
+}
+
+.signup-form input:focus {
+    border-color: #4cae4c;
+    outline: none;
+}
+
+.signup-form .links { 
+    text-align: center;
+     margin-top: 15px; 
+    } 
+.signup-form .links a { 
+    color: #5cb85c; 
+    text-decoration: none; 
+    margin: 0 10px; 
+} 
+.signup-form .links a:hover { 
+    text-decoration: underline; 
+}
